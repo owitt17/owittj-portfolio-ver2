@@ -2,9 +2,9 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
 
-    const frontendSkills = ["React", "JavaScript", "TypeScript", "CSS", "SASS", "HTML", "Tailwind CSS"];
+    const programmingSkills = ["React", "JavaScript", "TypeScript", "CSS", "C++", "HTML", "C#", "Python", "PHP", "Lua", ];
 
-    const backendSkills = ["Node.js", "Express.js", "GraphQL", "TypeScript", "MongoDB", "MySQL", "PostgreSQL"];
+    const softwareSkills = ["Blender", "Aseprite", "Unity", "Godot", "Visual Studio Code", "Git", "Figma", "OBS Studio", "AWS"];
 
     return (
         <section id="about" className="min-h-screen flex items-center justify-center py-20">
@@ -16,9 +16,9 @@ export const About = () => {
 
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                     <p className="text-gray-300 mb-6">
-                        Hi, I'm Owitt. I am a passionate frontend developer with a love for innovative and user-friendly designs. 
-                        I have worked on various projects, from small websites to complex web applications, and I 
-                        strive to create experiences that are both visually appealing and functional.
+                        Hello, you already know my name, Owitt. I don't have much projects, but I will continue to work on them 
+                        and improve myself with new technologies. I work in fast paced environments, making sure I deliver high quality work on time.
+                        I also enjoy my hobbies such as playing games and listening to music.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -27,7 +27,7 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">Frontend</h3>
 
                             <div className="flex flex-wrap gap-2">
-                                {frontendSkills.map((tech, key) => (
+                                {programmingSkills.map((tech, key) => (
                                     <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                         {tech}
                                     </span>
@@ -38,10 +38,10 @@ export const About = () => {
 
                          <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
 
-                            <h3 className="text-xl font-bold mb-4">Backend</h3>
+                            <h3 className="text-xl font-bold mb-4">Software</h3>
 
                             <div className="flex flex-wrap gap-2">
-                                {backendSkills.map((tech, key) => (
+                                {softwareSkills.map((tech, key) => (
                                     <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                         {tech}
                                     </span>
@@ -60,7 +60,7 @@ export const About = () => {
                                 <strong> Multimedia in Computer Science </strong> - Universiti Teknologi MARA (2023 - 2025)
                             </li>
                             <li>
-                                Relevant Coursework : Data Structures, Web Development, Cloud Computing...
+                                Relevant Coursework : Data Structures, Object-Oriented Programming, Special Topics in Computer Science
                             </li>
                         </ul>
                     </div>
@@ -69,7 +69,7 @@ export const About = () => {
                         <div className="space-y-4 text-gray-300">
                             <div>
                                 <h4 className="font-semibold"> Intern at Axrail Sdn Bhd [March 2025 - June 2025] </h4>
-                                <p> Contributed to updating and testing front-end projects & AI-related features. </p>
+                                <p> Develop and testing Retail management system and testing AI-related project modules. </p>
                             </div>
                         </div>
                         <div className="space-y-4 text-gray-300">

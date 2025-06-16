@@ -11,8 +11,8 @@ export const Home = () => {
                 </h1>
 
                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                    I'm a passionate frontend developer and aspiring to create 
-                    innovative and user-friendly web applications.
+                    Very passionate in developing amazing & cool games along with web applications.
+                    I am eager to learn more about other technologies and use it for the betterment of the world.
                 </p>
 
                 <div className="flex justify-center space-x-4">
